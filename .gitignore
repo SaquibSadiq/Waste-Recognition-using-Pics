@@ -1,0 +1,90 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model files (large)
+*.pth
+*.pkl
+*.h5
+*.model
+
+# Data files
+*.csv
+*.json
+*.parquet
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# PyTorch
+*.pth
+*.pt
+
+# OpenCV
+*.xml
+
+# Cache
+.cache/
+__pycache__/
+
+# Sample data (optional - remove if you want to include sample data)
+sample_data/images/*.jpg
+sample_data/images/*.png
+sample_data/images/*.jpeg
+sample_data/output/*.png
+sample_data/output/*.pth
