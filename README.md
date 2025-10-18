@@ -52,13 +52,13 @@ The web application is ready to use! Simply run the app and open your browser to
 ### Setup Instructions
 
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/yourusername/waste-detection-using-pictures.git
    cd waste-detection-using-pictures
    ```
 
 2. **Create virtual environment**
-   ```bash
+```bash
    python -m venv .venv
    ```
 
@@ -72,12 +72,12 @@ The web application is ready to use! Simply run the app and open your browser to
    ```
 
 4. **Install dependencies**
-   ```bash
+```bash
    pip install -r requirements.txt
    ```
 
 5. **Run the application**
-   ```bash
+```bash
    streamlit run real_waste_detector.py
    ```
 
@@ -248,30 +248,9 @@ We welcome contributions! Please feel free to submit:
 - Performance may vary with extremely high-resolution images
 - Natural element detection could be improved for desert/arctic environments
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 👥 Authors
-
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
-
 ## 🙏 Acknowledgments
 
 - OpenCV community for computer vision tools
 - PyTorch team for deep learning framework
 - Streamlit for the amazing web framework
 - All contributors and testers
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-- Open an issue on GitHub
-- Check the documentation
-- Review the troubleshooting section
-
----
-
-**Made with ❤️ for environmental awareness and waste reduction**
-
-*Help us make the world cleaner, one image at a time!* 🌍✨
